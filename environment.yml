@@ -1,0 +1,14 @@
+name: opencv-course2-webapp
+channels:
+- conda-forge
+dependencies:
+- python==3.6.1
+- pip
+- pip:
+  - streamlit
+  - matplotlib
+  - gunicorn
+  - numpy
+  - onnxruntime
+  - opencv-contrib-python-headless
+  - streamlit_drawable_canvas==0.1.1
